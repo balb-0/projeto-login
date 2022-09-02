@@ -66,6 +66,7 @@ main {
 
 h1 {
     text-align: center;
+    padding: 7px;
 }
 
 
@@ -153,4 +154,18 @@ input {
     border: 1px solid #49a09d;
     border-radius: 7px;
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    #login {
+        width: 80vw;
+        height: 280px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #imagem {
+        border-radius: 20px 0px 0px 20px
+    }
 }
